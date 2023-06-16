@@ -1,6 +1,8 @@
-#include <stdio.n>
+#include <stdio.h>
 /**
- * main - A program that prints a line with puts fuction
+ * main - Entry point
+ *
+ *Description: A program that prints a line with puts fuction
  *
  * Return: Always 0 (Success)
  */
