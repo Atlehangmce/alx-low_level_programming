@@ -7,11 +7,11 @@ int main(void)
 {
 	int no;
 
-	for (no=0; no<=9; no++)
+	for (no = 0; no <= 9; no++)
 	{
-		putchar((no % 10) + '0');
+		putchair((no % 10) + '0');
 
-		if (no==9)
+		if (no == 9)
 			continue;
 		putchar(',');
 		putchar(' ');
