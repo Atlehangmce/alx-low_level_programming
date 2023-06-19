@@ -9,7 +9,7 @@ int main(void)
 
 	for (no = 0; no <= 9; no++)
 	{
-		putchair((no % 10) + '0');
+		putchar((no % 10) + '0');
 
 		if (no == 9)
 			continue;
