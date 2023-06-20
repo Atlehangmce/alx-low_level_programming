@@ -29,7 +29,7 @@ int main(void)
 					if (dig1 +dig2 + dig3 != 24)
 					{
 						putchar(',');
-						putchar('');
+						putchar(' ');
 					}
 				}
 
