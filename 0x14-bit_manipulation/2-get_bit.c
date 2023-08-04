@@ -12,7 +12,7 @@ int get_bit(unsigned long int num, unsigned int index)
 
 	if (index > 63)
 		return (-1);
-	bit_val = (n >> index) & 1;
+	bit_val = (num >> index) & 1;
 
 	return (bit_val);
 }
